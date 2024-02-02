@@ -1,0 +1,58 @@
+body {
+    color: #000;
+}
+
+.result-heading {
+    color: white;
+    text-align: center;
+}
+
+.result-dialog-box {
+    width: 70vw;
+    height: fit-content;
+    background-color: white;
+    border-left: 10px solid #8686f3;
+}
+
+.result-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.result-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.result-dialog-box h2 {
+    padding: 20px;
+}
+
+.result-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.play-again-btn {
+    background-color: rgb(80, 255, 80);
+}
+
+.play-again-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.back-to-home-btn {
+    background-color: rgb(255, 80, 80);
+}
+
+.back-to-home-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
